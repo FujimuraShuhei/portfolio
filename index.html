@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="{{site.github.url}}" charset="utf-8"/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <meta property='og:type' content='website'>
-  <meta property='og:title' content='Fujimura Shuheiのポートフォリオ'>
-  <meta property='og:description' content='Fujimura Shuheiのポートフォリオ'>
-  <meta property="og:image" content="ogp.jpg">
   <meta name="description" content="Fujimura Shuheiのポートフォリオ" />
   <title>Fujimura Shuheiのポートフォリオ</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="style.scss">
   <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel=”canonical” href=”URLが入る” />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-  <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body>
     <div class="start"> 
-    <p><img src="ogp.jpg" alt=""></p>
+    <p><img src="img/ogp.jpg" alt=""></p>
 </div> 
 
   
@@ -59,10 +51,35 @@
     
   </div>
     
+    
+    
+    <!-- <div id="nav-drawer"> 
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+
+        <nav class="gnav-respon" class="fixed">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
+            <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
+            <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+            <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+          </ul>
+        </nav> 
+
+      </div>-->
+    
+  
+
+    
+    
+
+    
 
     <!-- .header -->
     <header class="header">
-      <img class="header-img" src="lee-campbell-DtDlVpy-vvQ-unsplash.jpg" alt="">
+      <img class="header-img" src="img/lee-campbell-DtDlVpy-vvQ-unsplash.jpg" alt="">
       <h1 class="logo">
         <div class="logo-title">PORTFOLIO.
         </div>
@@ -82,7 +99,7 @@
           <div class="section-body about">
             <div class="about-item">
               <div class="about-image-wrapper">
-                <img class="about-image lazyload fadein" src="about-profile.jpg" alt="">
+                <img class="about-image lazyload fadein" data-src="img/about-profile.jpg" alt="">
               </div>
               <div class="about-body">
                 <h2 font-weight-bold>Profile</h2>
@@ -117,7 +134,7 @@
 
               <figure class="works-item col-md-4 col-12">
                 <a class="works-image-wrapper works-link hover-action" href="https://drive.google.com/file/d/1zQbbFyroFpivd42j8pdMr84LeP5J4GGE/view" >
-                  <img class="works-image lazyload fadein" src="placeholder4x3.png" data-src="site1.thambnail.jpg"
+                  <img class="works-image lazyload fadein" src="img/works/site1.thambnail.jpg"
                     alt="" />
                 </a>
              
@@ -132,8 +149,7 @@
               <figure class="works-item col-md-4 col-12">
                 <a href="https://drive.google.com/file/d/13R8meO-omaKK-lsXTDQVK-eEvq5oV43W/view?usp=sharing" data-size="960x720"
                   class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="placeholder4x3.png"
-                    data-src="site2.thambnail.jpg" alt="" />
+                  <img class="works-image lazyload fadein" src="img/works/site2.thambnail.jpg" alt="" />
                 </a>
               
                 <figcaption class="works-body">
@@ -145,7 +161,7 @@
               <figure class="works-item col-md-4 col-12">
                 <div class="works-image-wrapper works-link hover-action">
                 <a href="https://drive.google.com/file/d/12OnfBbTHMWPjwiRvm2NKxjTosfpV_Skv/view?usp=sharing">
-                  <img class="works-image lazyload fadein" src="placeholder4x3.png" data-src="airbnb.thambnail.jpg"
+                  <img class="works-image lazyload fadein" src="img/works/airbnb.thambnail.jpg"
                     />
                 </a>
                 </div>
@@ -298,7 +314,7 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
-  <script type='text/javascript' src="script.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 </body>
 </html>
